@@ -15,14 +15,14 @@ namespace RectangleAssignment
         public Rectangle(int l, int w)
         {
             length = l;
-            length = w;
+            width = w;
         }
 
         public int GetLength() { return length; }
 
         public int GetWidth() { return width; }
 
-        public int GetPerimeter() { return 2 * (length + width); }
+        public int GetPerimeter() { return (2*length + 2*width); }
 
         public int GetArea() { return length * width; }
 
